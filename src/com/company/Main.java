@@ -15,10 +15,15 @@ public class Main {
 	float b = in.nextFloat();
 	switch(choice) {
         case 1: System.out.println("Addition Operation");break;
-        case 2: System.out.println("Subtraction operation");break;
+        case 2: {System.out.println("Subtraction operation "+ sub(a,b));
+                break;}
         case 3: System.out.println("Multiplication operation");break;
         case 4: System.out.println("Division operation");break;
 
         }
+    }
+
+    private static float sub(float a, float b) {
+        return (a-b);
     }
 }
