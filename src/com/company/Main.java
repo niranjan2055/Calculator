@@ -10,6 +10,9 @@ public class Main {
 
 	System.out.println("Basic Calculator \nSelect Operation to perform\n1:Add\n2:Sub\n3:Multiply\n4:Divide");
 	choice = in.nextInt();
+	System.out.println("Enter 2 numbers \n");
+	float a = in.nextFloat();
+	float b = in.nextFloat();
 	switch(choice) {
         case 1: System.out.println("Addition Operation");break;
         case 2: System.out.println("Subtraction operation");break;
