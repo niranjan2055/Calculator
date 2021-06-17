@@ -17,8 +17,12 @@ public class Main {
         case 1: System.out.println("Addition Operation");break;
         case 2: System.out.println("Subtraction operation");break;
         case 3: System.out.println("Multiplication operation");break;
-        case 4: System.out.println("Division operation");break;
+        case 4: System.out.println("Division operation "+div(a,b));break;
 
         }
+    }
+
+    private static float div(float a, float b) {
+        return (a/b);
     }
 }
